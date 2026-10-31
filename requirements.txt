@@ -1,0 +1,7 @@
+streamlit
+agno
+google-genai
+youtube-transcript-api
+fpdf2
+Markdown
+playwright

@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Understand YouTube videos faster with AI-powered summaries, key moments, and learning insights.">
+
+    <title>YouTube AI Analyzer | Understand Videos Beyond Watching</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="2" y="5" width="20" height="14" rx="4"
+                              fill="currentColor"/>
+                        <path d="M10 8.5L16 12L10 15.5V8.5Z" fill="#fff"/>
+                    </svg>
+                </span>
+
+                <span>YouTube <span class="logo-highlight">AI Analyzer</span></span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="navLinks">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#about" class="nav-link">About</a>
+
+                <a href="#analyzer" class="nav-cta">
+                    Try Now <span>↗</span>
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        AI-POWERED VIDEO ANALYSIS
+                    </div>
+
+                    <h1>
+                        Understand Videos
+                        <br>
+                        Beyond <span class="gradient-text">Watching.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Turn long YouTube videos into clear summaries,
+                        discover key moments, and learn important concepts
+                        without spending hours watching.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#analyzer" class="btn btn-primary">
+                            <span class="play-icon">▶</span>
+                            Analyze a Video
+                            <span class="btn-arrow">→</span>
+                        </a>
+
+                        <a href="#how-it-works" class="btn btn-secondary">
+                            Learn More <span>↓</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="trust-icon">✦</div>
+                        <p>
+                            Learn faster.
+                            <span>Understand better.</span>
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <!-- Product Preview -->
+                <div class="hero-visual reveal">
+
+                    <div class="visual-orbit orbit-one"></div>
+                    <div class="visual-orbit orbit-two"></div>
+
+                    <div class="floating-badge badge-top">
+                        <span class="badge-icon">✦</span>
+                        AI-Powered Insights
+                    </div>
+
+                    <div class="dashboard-card">
+
+                        <div class="dashboard-header">
+                            <div class="mini-brand">
+                                <span class="mini-play">▶</span>
+                                <span>YouTube AI Analyzer</span>
+                            </div>
+
+                            <span class="live-badge">
+                                <span></span> AI Ready
+                            </span>
+                        </div>
+
+                        <div class="dashboard-body">
+
+                            <div class="dashboard-heading">
+                                <span class="mini-label">YOUR PERSONAL AI ASSISTANT</span>
+
+                                <h3>
+                                    Watch less.
+                                    <br>
+                                    <span class="gradient-text">Understand more.</span>
+                                </h3>
+
+                                <p>
+                                    Your favorite videos, simplified with AI.
+                                </p>
+                            </div>
+
+                            <div class="preview-features">
+
+                                <div class="preview-feature">
+                                    <div class="preview-icon purple">✧</div>
+                                    <h4>Smart Summaries</h4>
+                                    <p>Get the main ideas</p>
+                                </div>
+
+                                <div class="preview-feature">
+                                    <div class="preview-icon blue">⚡</div>
+                                    <h4>Key Moments</h4>
+                                    <p>Find important topics</p>
+                                </div>
+
+                                <div class="preview-feature">
+                                    <div class="preview-icon pink">◎</div>
+                                    <h4>Learning Insights</h4>
+                                    <p>Understand concepts</p>
+                                </div>
+
+                            </div>
+
+                            <div class="preview-input-label">
+                                Ready to understand your next video?
+                            </div>
+
+                            <a href="#analyzer" class="preview-input">
+                                <span>▶</span>
+                                <span>Paste a YouTube video URL...</span>
+                                <span class="input-arrow">→</span>
+                            </a>
+
+                            <div class="preview-footer">
+                                <span>✦ Powered by AI</span>
+                                <span>Made for curious minds</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-summary">
+                        <div class="floating-card-icon">✓</div>
+                        <div>
+                            <strong>Video simplified</strong>
+                            <span>Key insights extracted</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-ai">
+                        <span class="ai-sparkle">✦</span>
+                        <div>
+                            <strong>Save your time</strong>
+                            <span>Focus on what matters</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#features" class="scroll-indicator">
+                <span></span>
+                Explore Features
+            </a>
+
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="section features-section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">WHAT YOU GET</span>
+
+                    <h2>
+                        Powerful Features.
+                        <br>
+                        <span class="gradient-text">Less Wasted Time.</span>
+                    </h2>
+
+                    <p>
+                        Everything you need to extract more value
+                        from the YouTube videos you watch.
+                    </p>
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-purple">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M12 3a9 9 0 1 0 9 9"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M12 7a5 5 0 1 0 5 5"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="2" stroke-linecap="round"/>
+                                    <circle cx="12" cy="12" r="2"
+                                            fill="currentColor"/>
+                                    <path d="M14 10l7-7m-5 0h5v5"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </div>
+
+                            <span class="feature-number">01</span>
+                        </div>
+
+                        <h3>Smart Summaries</h3>
+
+                        <p>
+                            Get concise explanations of the main ideas
+                            from a video without going through every minute.
+                        </p>
+
+                        <a href="#analyzer" class="feature-link">
+                            Explore feature <span>→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-blue">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M13 2L4 14h7l-1 8 10-13h-7l0-7Z"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="2"
+                                          stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+
+                            <span class="feature-number">02</span>
+                        </div>
+
+                        <h3>Key Moments</h3>
+
+                        <p>
+                            Find important topics and timestamps so you can
+                            focus on the parts that matter most.
+                        </p>
+
+                        <a href="#analyzer" class="feature-link">
+                            Explore feature <span>→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-pink">
+                                <svg viewBox="0 0 24 24" aria-hidden="true">
+                                    <path d="M9 3a3 3 0 0 0-3 3v1a3 3 0 0 0-2 3
+                                             3 3 0 0 0 1 5v2a3 3 0 0 0 3 3h1V3H9Z"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="1.8"/>
+                                    <path d="M15 3a3 3 0 0 1 3 3v1a3 3 0 0 1 2 3
+                                             3 3 0 0 1-1 5v2a3 3 0 0 1-3 3h-1V3h1Z"
+                                          fill="none" stroke="currentColor"
+                                          stroke-width="1.8"/>
+                                    <path d="M9 8h3m-3 4h3m0 4h3m0-8h-3m3 4h-3"
+                                          stroke="currentColor" stroke-width="1.5"
+                                          stroke-linecap="round"/>
+                                </svg>
+                            </div>
+
+                            <span class="feature-number">03</span>
+                        </div>
+
+                        <h3>Learning Insights</h3>
+
+                        <p>
+                            Discover useful takeaways, concepts, and
+                            explanations that help you learn more effectively.
+                        </p>
+
+                        <a href="#analyzer" class="feature-link">
+                            Explore feature <span>→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-green">▶</div>
+                            <span class="feature-number">04</span>
+                        </div>
+
+                        <h3>Video Integration</h3>
+
+                        <p>
+                            Open and view supported YouTube videos alongside
+                            their AI-generated analysis.
+                        </p>
+
+                        <a href="#analyzer" class="feature-link">
+                            Explore feature <span>→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-orange">⇩</div>
+                            <span class="feature-number">05</span>
+                        </div>
+
+                        <h3>PDF Export</h3>
+
+                        <p>
+                            Save your video analysis as a PDF for revision,
+                            reference, or future learning.
+                        </p>
+
+                        <a href="#analyzer" class="feature-link">
+                            Explore feature <span>→</span>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card feature-card-highlight reveal">
+                        <div class="feature-top">
+                            <div class="feature-icon icon-purple">✦</div>
+                            <span class="feature-number">06</span>
+                        </div>
+
+                        <h3>AI-Powered Analysis</h3>
+
+                        <p>
+                            Use AI to turn video content into a more
+                            accessible and structured learning experience.
+                        </p>
+
+                        <a href="#how-it-works" class="feature-link">
+                            See how it works <span>→</span>
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- How It Works -->
+        <section class="section process-section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-label">SIMPLE WORKFLOW</span>
+
+                    <h2>
+                        Three Steps to
+                        <span class="gradient-text">Clarity.</span>
+                    </h2>
+
+                    <p>
+                        From a YouTube link to useful insights in a few simple steps.
+                    </p>
+                </div>
+
+
+                <div class="process-grid">
+
+                    <article class="process-card reveal">
+                        <div class="process-number">01</div>
+                        <div class="process-icon">↗</div>
+
+                        <h3>Paste Your URL</h3>
+
+                        <p>
+                            Copy the link of the YouTube video you want
+                            to understand and open the analyzer.
+                        </p>
+
+                        <div class="process-line"></div>
+                    </article>
+
+
+                    <article class="process-card reveal">
+                        <div class="process-number">02</div>
+                        <div class="process-icon">✦</div>
+
+                        <h3>Let AI Analyze</h3>
+
+                        <p>
+                            The analyzer processes the available video
+                            information to generate a structured analysis.
+                        </p>
+
+                        <div class="process-line"></div>
+                    </article>
+
+
+                    <article class="process-card reveal">
+                        <div class="process-number">03</div>
+                        <div class="process-icon">✓</div>
+
+                        <h3>Explore Your Results</h3>
+
+                        <p>
+                            Read the summary, review key moments, and
+                            download the analysis as a PDF.
+                        </p>
+
+                        <div class="process-line"></div>
+                    </article>
+
+                </div>
+
+                <div class="process-note reveal">
+                    <span>ⓘ</span>
+                    Results depend on the video's available information,
+                    the AI model, and API availability.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+
+            <div class="container about-grid">
+
+                <div class="about-visual reveal">
+
+                    <div class="about-orb orb-purple"></div>
+                    <div class="about-orb orb-blue"></div>
+
+                    <div class="about-panel">
+
+                        <div class="about-panel-top">
+                            <span class="panel-dot"></span>
+                            <span class="panel-dot"></span>
+                            <span class="panel-dot"></span>
+                            <span class="panel-title">THE BIGGER PICTURE</span>
+                        </div>
+
+                        <div class="about-main-icon">✦</div>
+
+                        <h3>Information overload?</h3>
+
+                        <p>
+                            Turn lengthy video content into
+                            structured insights.
+                        </p>
+
+                        <div class="about-mini-list">
+                            <div>
+                                <span>✓</span>
+                                <span>Understand key ideas</span>
+                            </div>
+
+                            <div>
+                                <span>✓</span>
+                                <span>Find important moments</span>
+                            </div>
+
+                            <div>
+                                <span>✓</span>
+                                <span>Keep a study reference</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content reveal">
+
+                    <span class="section-label">WHY THIS PROJECT?</span>
+
+                    <h2>
+                        Make Every Video
+                        <span class="gradient-text">More Valuable.</span>
+                    </h2>
+
+                    <p>
+                        YouTube is full of educational tutorials, lectures,
+                        technology discussions, and useful information.
+                        But finding the most relevant points can take time.
+                    </p>
+
+                    <p>
+                        YouTube AI Analyzer is designed to make this process
+                        easier by organizing video information into summaries,
+                        key moments, and learning insights.
+                    </p>
+
+                    <div class="about-benefits">
+
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <div>
+                                <strong>For Students</strong>
+                                <p>Review lectures and revise important concepts.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <div>
+                                <strong>For Developers</strong>
+                                <p>Navigate technical tutorials and explore key ideas.</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <div>
+                                <strong>For Curious Learners</strong>
+                                <p>Get a structured overview of useful video content.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA Section -->
+        <section class="section cta-section" id="analyzer">
+
+            <div class="container">
+
+                <div class="cta-card reveal">
+
+                    <div class="cta-decoration decoration-one"></div>
+                    <div class="cta-decoration decoration-two"></div>
+
+                    <div class="cta-content">
+                        <span class="cta-label">
+                            <span>✦</span> YOUR NEXT VIDEO, SIMPLIFIED
+                        </span>
+
+                        <h2>
+                            Stop Just Watching.
+                            <br>
+                            Start <span class="gradient-text">Understanding.</span>
+                        </h2>
+
+                        <p>
+                            Ready to explore YouTube videos in a more
+                            focused and efficient way?
+                        </p>
+
+                        <a href="#" id="analyzerButton"
+                           class="btn btn-primary btn-large">
+                            Open AI Analyzer
+                            <span class="btn-arrow">↗</span>
+                        </a>
+
+                        <p class="cta-small">
+                            Your learning journey starts with one video.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-icon">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="2" y="5" width="20" height="14" rx="4"
+                                  fill="currentColor"/>
+                            <path d="M10 8.5L16 12L10 15.5V8.5Z" fill="#fff"/>
+                        </svg>
+                    </span>
+
+                    <span>YouTube <span class="logo-highlight">AI Analyzer</span></span>
+                </a>
+
+                <p class="footer-description">
+                    Understand videos beyond watching.
+                </p>
+
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#about">About</a>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    © <span id="currentYear"></span> YouTube AI Analyzer.
+                    Built for smarter learning.
+                </p>
+
+                <a href="#home" class="back-to-top">
+                    Back to top ↑
+                </a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
