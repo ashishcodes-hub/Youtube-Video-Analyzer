@@ -7,7 +7,7 @@
 // Replace this with your actual deployed Streamlit analyzer URL.
 // Example: https://your-project-name.streamlit.app
 
-const ANALYZER_URL = "YOUR_STREAMLIT_ANALYZER_URL";
+const ANALYZER_URL = "https://youtube-video-analyzer-ashish-kumar.streamlit.app/";
 
 
 /* =================================
